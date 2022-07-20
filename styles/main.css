@@ -1,0 +1,176 @@
+.pageHeader {
+    text-align: center;
+    color:white
+}
+
+body {
+    background-image:url("https://images.pexels.com/photos/3168998/pexels-photo-3168998.jpeg?cs=srgb&dl=pexels-francesco-ungaro-3168998.jpg&fm=jpg");
+    
+}
+
+.fish{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left:540px;
+    justify-content: space-evenly;
+    border: 4px solid white;
+    padding: 2em;
+    margin: 0.1em;
+    width:300px;
+    height:200px;
+
+
+}
+
+.foxface {
+    text-align:center;
+    line-height: 1px;
+}
+
+/* .yellow_tang_text {
+    text-align:center;
+    bottom:700px;
+} */
+
+p {
+    text-align:center;
+   line-height: 10px;
+   color: white;
+   font-weight: bold;
+   }
+ul { 
+    right:70px;
+    bottom:10px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+.inside {
+    list-style-position: inside;
+    list-style-type: square;
+    color:white;
+    font-weight: bold;
+  }
+  
+h2{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.australia_text{
+    /* display: flex;
+    flex-wrap: wrap; */
+    position:relative;
+    left:510px;
+    /* justify-content: space-evenly; */
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 2em;
+    margin: 0.1em;
+    width: 300px;
+    height: 200px;
+    color:white;
+    font-weight: bold;
+}
+
+.flordia_keys_text{
+    position:relative;
+    bottom:350px;
+    left:510px;
+    text-align: center;
+    padding: 2em;
+    margin: 0.1em;
+    width: 300px;
+    height: 200px;
+    color:white;
+    font-weight: bold;
+}
+
+.southern_california_text {
+    position:relative;
+    bottom:670px;
+    left:510px;
+    text-align: center;
+    padding: 2em;
+    margin: 0.1em;
+    width: 300px;
+    height: 200px;
+    color:white;
+    font-weight: bold;
+}
+
+.fish_picture{
+    display:block;
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.fish_maintenance {
+    display: flex;
+    position: relative;
+    left:1000px;
+    bottom:2870px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid white;
+    padding: 2em;
+    margin: 0.1em;
+    width: 340px;
+    height: 100px;
+    color:white;
+    font-weight: bold;
+}
+
+.travel_trips {
+    display: flex;
+    position: relative;
+    left:1000px;
+    bottom:2500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 3px solid white;
+    padding: 2em;
+    margin: 0.1em;
+    width: 300px;
+    height: 150px;
+    color:white;
+    font-weight: bold;
+}
+
+.australia_picture {
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+    position: relative;
+    bottom:275px;
+    left:510px;
+}
+
+.flordia_keys_picture {
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+    position: relative;
+    bottom:600px;
+    left:510px;
+}
+
+.southern_california_picture {
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+    position: relative;
+    bottom:900px;
+    left:510px;
+}
